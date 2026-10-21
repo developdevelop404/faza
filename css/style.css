@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-Regular.ttf);
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #231D1B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.header-block {
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.header-nav-link {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    color: #EEEDEE;
+}
+
+.header-nav-link:hover {
+    color: #D6D01D;
+    transform: scale(1.1);
+}
+
+.header-button {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+    background-color: #D6D01D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #231D1B;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.header-button:hover {
+    border: 1px solid #D6D01D;
+    border-color: #D6D01D;
+    background-color: #231D1B;
+    color: #D6D01D;
+    cursor: pointer;
+}
