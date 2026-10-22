@@ -207,7 +207,7 @@
     position: absolute;
     width: 100%;
     text-align: center;
-    padding-left: 10px; 
+    padding-left: 10px;
     color: #EEEDEE;
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
@@ -215,11 +215,25 @@
     text-transform: uppercase;
 }
 
-.txt-1 { top: 85px; }
-.txt-2 { top: 185px; }
-.txt-3 { top: 375px; }
-.txt-4 { top: 475px; }
-.txt-5 { top: 575px; }
+.txt-1 {
+    top: 85px;
+}
+
+.txt-2 {
+    top: 185px;
+}
+
+.txt-3 {
+    top: 375px;
+}
+
+.txt-4 {
+    top: 475px;
+}
+
+.txt-5 {
+    top: 575px;
+}
 
 .about-block-right {
     width: 648px;
@@ -279,4 +293,223 @@
     max-width: 424px;
     line-height: 1.3;
     margin: 0;
+}
+
+.directions {
+    background-color: #231D1B;
+    padding: 120px 0;
+}
+
+.directions-block {
+    padding: 0;
+}
+
+.directions-title {
+    font-family: 'Asphaltic Grain', sans-serif;
+    font-size: 64px;
+    color: #EEEDEE;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.directions-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: #EEEDEE;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.directions-list {
+    position: relative;
+    width: 1320px;
+    height: 808px;
+    margin: 0 auto;
+}
+
+.directions-card-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.directions-card-title {
+    position: absolute;
+    width: 100%;
+    font-family: 'Asphaltic Grain', sans-serif;
+    color: #D6D01D;
+    text-align: center;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.directions-card-indie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 648px;
+    height: 520px;
+    background-color: #EEEDEE;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.directions-card-indie .directions-card-title {
+    top: 40px;
+    font-size: 96px;
+}
+
+.directions-card-indie .directions-card-img {
+    left: 32px;
+    width: 645px;
+}
+
+.directions-card-hiphop {
+    width: 312px;
+    height: 248px;
+    background-color: #EEEDEE;
+    position: absolute;
+    top: 0;
+    left: 672px;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-hiphop .directions-card-title {
+    top: 24px;
+    font-size: 64px;
+}
+
+.directions-card-hiphop .directions-card-img {
+    left: 20px;
+    width: 271px;
+}
+
+.directions-card-pop {
+    width: 312px;
+    height: 248px;
+    background-color: #EEEDEE;
+    position: absolute;
+    top: 0;
+    left: 1008px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-pop .directions-card-title {
+    top: 24px;
+    font-size: 64px;
+}
+
+.directions-card-pop .directions-card-img {
+    left: 45px;
+    width: 228px;
+}
+
+.directions-card-electro {
+    width: 312px;
+    height: 248px;
+    background-color: #EEEDEE;
+    position: absolute;
+    top: 272px;
+    left: 672px;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-electro .directions-card-title {
+    top: 24px;
+    font-size: 64px;
+}
+
+.directions-card-electro .directions-card-img {
+    left: 30px;
+    width: 266px;
+}
+
+.directions-card-alt {
+    width: 312px;
+    height: 248px;
+    background-color: #EEEDEE;
+    border-radius: 10px;
+    position: absolute;
+    top: 272px;
+    left: 1008px;
+
+    overflow: hidden;
+}
+
+.directions-card-alt .directions-card-title {
+    top: 24px;
+    font-size: 64px;
+}
+
+.directions-card-alt .directions-card-img {
+    left: 25px;
+    width: 248px;
+}
+
+.directions-card-exp {
+    width: 424px;
+    height: 264px;
+    position: absolute;
+    top: 544px;
+    left: 0;
+    background-color: #EEEDEE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-exp .directions-card-title {
+    top: 32px;
+    font-size: 64px;
+}
+
+.directions-card-exp .directions-card-img {
+    left: 73px;
+    width: 268px;
+}
+
+.directions-card-jazz {
+    width: 424px;
+    height: 264px;
+    position: absolute;
+    top: 544px;
+    left: 448px;
+
+    background-color: #EEEDEE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-jazz .directions-card-title {
+    top: 32px;
+    font-size: 64px;
+}
+
+.directions-card-jazz .directions-card-img {
+    left: 42px;
+    width: 329px;
+}
+
+.directions-card-rave {
+    position: absolute;
+    top: 544px;
+    left: 896px;
+    width: 424px;
+    height: 264px;
+    background-color: #EEEDEE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-card-rave .directions-card-title {
+    top: 32px;
+    font-size: 64px;
+}
+
+.directions-card-rave .directions-card-img {
+    left: 90px;
+    width: 236px;
 }
