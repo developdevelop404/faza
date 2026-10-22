@@ -1110,3 +1110,102 @@
     height: 360px;
     z-index: 1;
 }
+
+.footer {
+    background-color: #231D1B;
+    padding: 80px 0;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-col-info {
+    max-width: 220px;
+}
+
+.footer-logo {
+    width: 104px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.footer-info-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #EEEDEE;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+.footer-col-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-col-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-col-docs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-col-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #EEEDEE;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #EEEDEE;
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.footer-link:hover {
+    color: #D6D01D;
+    opacity: 1;
+}
+
+.footer-socials-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-icon-vk {
+    width: 48px;
+    height: 48px;
+}
+
+.footer-icon-rutube {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-socials-link:hover img {
+    opacity: 0.8;
+}
