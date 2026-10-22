@@ -36,6 +36,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Bold.ttf);
+    font-weight: 700;
+}
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -613,4 +619,236 @@
     font-size: 20px;
     color: #231D1B;
     text-align: center;
+}
+
+.formats {
+    background-color: #FFFFFF;
+    padding: 120px 0;
+}
+
+.formats-title {
+    font-family: 'Asphaltic Grain', sans-serif;
+    font-size: 64px;
+    color: #231D1B;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.formats-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: #231D1B;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.formats-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.formats-card-course {
+    width: 408px;
+    height: 392px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url('../img/webp/course.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.formats-card-intensive {
+    width: 408px;
+    height: 480px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url('../img/webp/intensive.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.formats-card-mentorship {
+    width: 408px;
+    height: 392px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url('../img/webp/mentorship.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.formats-card-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #231D1B;
+    opacity: 0.7;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.formats-card-color-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D6D01D;
+    opacity: 0.2;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.formats-card-color-red {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #BC0B0D;
+    opacity: 0.2;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.formats-card-color-green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5AB46B;
+    opacity: 0.2;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.formats-card-title {
+    position: relative;
+    z-index: 3;
+    font-family: 'Asphaltic Grain', sans-serif;
+    font-size: 64px;
+    color: #EEEDEE;
+    margin-bottom: 24px;
+    line-height: 1;
+}
+
+.formats-card-text {
+    position: relative;
+    z-index: 3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #EEEDEE;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 29px;
+}
+
+.formats-card-course-button {
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    height: 88px;
+    margin-top: auto;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/svg/yellowbutton.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'VARS', sans-serif;
+    font-size: 24px;
+    color: #EEEDEE;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.formats-card-intensive-button {
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    height: 88px;
+    margin-top: auto;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/svg/redbutton.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'VARS', sans-serif;
+    font-size: 24px;
+    color: #EEEDEE;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.formats-card-mentorship-button {
+    position: relative;
+    z-index: 3;
+    width: 200px;
+    height: 88px;
+    margin-top: auto;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/svg/greenbutton.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'VARS', sans-serif;
+    font-size: 24px;
+    color: #EEEDEE;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.formats-card-hit {
+    position: absolute;
+    top: -60px;
+    right: -70px;
+    width: 193px;
+    height: 193px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formats-card-hit-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.formats-card-hit-text {
+    position: relative;
+    z-index: 2;
+    font-family: 'Asphaltic Grain', sans-serif;
+    font-size: 48px;
+    color: #EEEDEE;
+    line-height: 1;
+    margin-top: 5px;
 }
