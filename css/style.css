@@ -24,6 +24,18 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -154,4 +166,117 @@
 
 .banner-button:hover {
     transform: scale(1.1);
+}
+
+.about {
+    background-color: #231D1B;
+    padding: 120px 0;
+}
+
+.about-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.about-block-left {
+    width: 648px;
+    height: 704px;
+    position: relative;
+}
+
+.about-block-left-piano {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.about-block-left-plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-block-left-plus-ul {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px; 
+    color: #EEEDEE;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.txt-1 { top: 85px; }
+.txt-2 { top: 185px; }
+.txt-3 { top: 375px; }
+.txt-4 { top: 475px; }
+.txt-5 { top: 575px; }
+
+.about-block-right {
+    width: 648px;
+    height: 704px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url(../img/webp/about.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 74px 40px 60px 40px;
+}
+
+.about-block-right-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 29, 27, 0.7);
+    z-index: 1;
+}
+
+.about-block-right-gradient {
+    position: absolute;
+    background-image: url(../img/svg/about-gradient.svg);
+    background-size: cover;
+    background-position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    z-index: 2;
+}
+
+.about-block-right-title {
+    position: relative;
+    z-index: 3;
+    font-family: 'Asphaltic Grain';
+    font-size: 96px;
+    color: #EEEDEE;
+    line-height: 1;
+    margin: 0;
+}
+
+.about-block-right-text {
+    position: relative;
+    z-index: 3;
+    font-family: 'Inter';
+    font-size: 24px;
+    color: #EEEDEE;
+    max-width: 424px;
+    line-height: 1.3;
+    margin: 0;
 }
