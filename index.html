@@ -14,23 +14,23 @@
         <div class="header-block container">
             <a href="#" class="header-logo"><img src="img/svg/logo.svg" alt="Логотип Фаза"></a>
             <nav class="header-nav">
-                <a href="#" class="header-nav-link">Направления</a>
-                <a href="#" class="header-nav-link">О школе</a>
-                <a href="#" class="header-nav-link">Преподаватели</a>
-                <a href="#" class="header-nav-link">Форматы</a>
+                <a href="#directions" class="header-nav-link">Направления</a>
+                <a href="#about" class="header-nav-link">О школе</a>
+                <a href="#teachers" class="header-nav-link">Преподаватели</a>
+                <a href="#formats" class="header-nav-link">Форматы</a>
             </nav>
-            <a href="#" class="header-button">Связаться</a>
+            <a href="#contact" class="header-button">Связаться</a>
         </div>
     </header>
     <section class="banner">
         <div class="banner-black"></div>
         <div class="banner-content container">
             <h1 class="banner-title">Школа современной независимой музыки</h1>
-            <h3 class="banner-slogan">Твоя фаза. Твой звук.</h3>
+            <h2 class="banner-slogan">Твоя фаза. Твой звук.</h2>
             <a href="#" class="banner-button">Записаться на пробное занятие</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-block container">
             <div class="about-block-left">
                 <img class="about-block-left-piano" src="img/svg/piano.svg" alt="Пианино">
@@ -38,8 +38,7 @@
                     <li class="about-block-left-plus-ul txt-1">Обучение</li>
                     <li class="about-block-left-plus-ul txt-2">Запись</li>
                     <li class="about-block-left-plus-ul txt-3">Продакшн</li>
-                    <li class="about-block-left-plus-ul txt-4">Сообщество
-                    <li>
+                    <li class="about-block-left-plus-ul txt-4">Сообщество<li>
                     <li class="about-block-left-plus-ul txt-5">Релиз</li>
                 </ul>
             </div>
@@ -52,7 +51,7 @@
             </div>
         </div>
     </section>
-    <section class="directions">
+    <section class="directions" id="directions">
         <div class="directions-block container">
             <h2 class="directions-title">Направления</h2>
             <h3 class="directions-subtitle">С чего начнёшь? Тут нет неверных ответов</h3>
@@ -117,7 +116,7 @@
             </div>
         </div>
     </section>
-    <section class="teachers">
+    <section class="teachers" id="teachers">
         <div class="teachers-block container">
             <h2 class="teachers-title">Ведущие преподаватели</h2>
             <div class="teachers-list">
@@ -144,7 +143,7 @@
             </div>
         </div>
     </section>
-    <section class="formats">
+    <section class="formats" id="formats">
         <div class="formats-block container">
             <h2 class="formats-title">Форматы обучения</h2>
             <h3 class="formats-subtitle">Выбери свой ритм и глубину погружения</h3>
@@ -177,67 +176,174 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <h2 class="reviews-title">Отзывы</h2>
-        <a href="#" class="reviews-arrow-left">
-            <img src="img/svg/arrow-left.svg" alt="Назад">
-        </a>
-        <a href="#" class="reviews-arrow-right">
-            <img src="img/svg/arrow-right.svg" alt="Вперед">
-        </a>
+        <input type="radio" name="reviews-slider" id="r1" checked>
+        <input type="radio" name="reviews-slider" id="r2">
+        <input type="radio" name="reviews-slider" id="r3">
         <div class="reviews-block container">
-            <div class="reviews-list">
-                <div class="reviews-card">
-                    <p class="reviews-card-date">29.06.26</p>
-                    <div class="reviews-card-header">
-                        <img class="reviews-card-avatar" src="img/webp/avatar1.webp" alt="enny">
-                        <div class="reviews-card-info">
-                            <h3 class="reviews-card-name">enny</h3>
-                            <p class="reviews-card-role">музыкант</p>
+            <label for="r2" class="arrow-right right-r1">
+                <img src="img/svg/arrow-right.svg" alt="Вперед">
+            </label>
+            <label for="r3" class="arrow-right right-r2">
+                <img src="img/svg/arrow-right.svg" alt="Вперед">
+            </label>
+            <label for="r1" class="arrow-right right-r3">
+                <img src="img/svg/arrow-right.svg" alt="Вперед">
+            </label>
+            <label for="r3" class="arrow-left left-r1">
+                <img src="img/svg/arrow-left.svg" alt="Назад">
+            </label>
+            <label for="r1" class="arrow-left left-r2">
+                <img src="img/svg/arrow-left.svg" alt="Назад">
+            </label>
+            <label for="r2" class="arrow-left left-r3">
+                <img src="img/svg/arrow-left.svg" alt="Назад">
+            </label>
+            <div class="reviews-viewport">
+                <div class="reviews-list">
+                    <div class="reviews-slide">
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">29.06.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar1.webp" alt="enny">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">enny</h3>
+                                    <p class="reviews-card-role">музыкант</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Великолепная школа! Думала, что просто какой-то самобытный
+                                проект, но это место помогло преодолеть мне мои творческие барьеры и даже, наконец,
+                                начать выпускать свою музыку. Всем кто...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">09.08.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar2.webp" alt="k12nga">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">k12nga</h3>
+                                    <p class="reviews-card-role">битмейкер</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Охохо, пришёл сюда по совету друга и мне тут очень зашло!
+                                Преподы ваще супер! Оборудование просто огонь! Ещё и подарки дают! Наконец, реально стал
+                                крутым битмейкером)...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">13.09.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar3.webp" alt="ГЕНВ">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">ГЕНВ</h3>
+                                    <p class="reviews-card-role">продюсер</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Эта школа полностью поменяла моё восприятие к музыке.
+                                Преподаватели такие живые и человечные, что очень быстро подружился с ними. Здесь учат
+                                не только как творить, но и тому, как...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
                         </div>
                     </div>
-                    <p class="reviews-card-text">«Великолепная школа! Думала, что просто какой-то самобытный проект, но
-                        это место помогло преодолеть мне мои творческие барьеры и даже, наконец, начать выпускать свою
-                        музыку. Всем кто...</p>
-                    <a href="#" class="reviews-card-button">Читать далее</a>
-                </div>
-                <div class="reviews-card">
-                    <p class="reviews-card-date">09.08.26</p>
-                    <div class="reviews-card-header">
-                        <img class="reviews-card-avatar" src="img/webp/avatar2.webp" alt="k12nga">
-                        <div class="reviews-card-info">
-                            <h3 class="reviews-card-name">k12nga</h3>
-                            <p class="reviews-card-role">битмейкер</p>
+                    <div class="reviews-slide">
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">15.09.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar4.webp" alt="neeet">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">neeet</h3>
+                                    <p class="reviews-card-role">продюсер</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Пришёл с нулевыми знаниями в музыке. Но за два месяца
+                                интенсива собрал полноценный епишник. Преподы не душнилы, объясняют всё на пальцах.
+                                Отдельный респект за атмосферу...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">02.10.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar5.webp" alt="r0nny">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">r0nny</h3>
+                                    <p class="reviews-card-role">звукорежиссёр</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Искал место, где смогу прокачать своё сведение. Тут дают
+                                реальную практику на довольно хорошем оборудовании, а не просто сухую теорию. Фаза -
+                                топовая школа для всех, думаю. Очень рад, что...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">10.10.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar6.webp" alt="Блестящая">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">Блестящая</h3>
+                                    <p class="reviews-card-role">вокалист</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Боялась, что мой голос не подойдёт под "современную музыку",
+                                но здесь помогают найти свой уникальный стиль. Очень бережное и дружелюбное отношение к
+                                ученикам...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
                         </div>
                     </div>
-                    <p class="reviews-card-text">«Охохо, пришёл сюда по совету друга и мне тут очень зашло! Преподы ваще
-                        супер! Оборудование просто огонь! Ещё и подарки дают! Наконец, реально стал крутым
-                        битмейкером)...</p>
-                    <a href="#" class="reviews-card-button">Читать далее</a>
-                </div>
-                <div class="reviews-card">
-                    <p class="reviews-card-date">13.09.26</p>
-                    <div class="reviews-card-header">
-                        <img class="reviews-card-avatar" src="img/webp/avatar3.webp" alt="ГЕНВ">
-                        <div class="reviews-card-info">
-                            <h3 class="reviews-card-name">ГЕНВ</h3>
-                            <p class="reviews-card-role">продюсер</p>
+                    <div class="reviews-slide">
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">18.10.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar7.webp" alt="Гроу">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">Гроу</h3>
+                                    <p class="reviews-card-role">битмейкер</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Наконец-то нашёл тусовку, где все горят музыкой. После занятий
+                                часто остаёмся джемить. Записал первый трек прямо на уроке - кайф! Очень круто, что
+                                можно получить фидбек и советы не только от...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">22.10.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar8.webp" alt="Ляо">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">Ляо</h3>
+                                    <p class="reviews-card-role">музыкант</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Здесь учат не копировать чужое, а делать своё. Мне помогли
+                                собраться с силами и выступить впервые на сцене. Это бесценный опыт! Очень рад, что
+                                попал в такую атмосферу, где поддерживают...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
+                        </div>
+                        <div class="reviews-card">
+                            <p class="reviews-card-date">25.10.26</p>
+                            <div class="reviews-card-header">
+                                <img class="reviews-card-avatar" src="img/webp/avatar9.webp" alt="D-митрий">
+                                <div class="reviews-card-info">
+                                    <h3 class="reviews-card-name">D-митрий</h3>
+                                    <p class="reviews-card-role">продюсер</p>
+                                </div>
+                            </div>
+                            <p class="reviews-card-text">«Курс по продакшену окупился с первого релиза. Всё чётко, по
+                                делу, без воды. Преподаватели реально шарят и всегда на связи. Если что-то непонятно,
+                                можно спросить в любое время, и обязательно...</p>
+                            <a href="#" class="reviews-card-button">Читать далее</a>
                         </div>
                     </div>
-                    <p class="reviews-card-text">«Эта школа полностью поменяла моё восприятие к музыке. Преподаватели
-                        такие живые и человечные, что очень быстро подружился с ними. Здесь учат не только как творить,
-                        но и тому, как...</p>
-                    <a href="#" class="reviews-card-button">Читать далее</a>
                 </div>
             </div>
             <div class="reviews-dots">
-                <div class="reviews-dot-active"></div>
-                <div class="reviews-dot"></div>
-                <div class="reviews-dot"></div>
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="contact-title">Записаться на обучение</h2>
         <h3 class="contact-subtitle">Оставь заявку и мы свяжемся с тобой</h3>
         <div class="contact-card">
@@ -253,16 +359,16 @@
     <footer class="footer">
         <div class="container footer-block">
             <div class="footer-col-info">
-                <img class="footer-logo" src="img/svg/logo.svg" alt="Логотип Фаза">
+                <a href="#"><img class="footer-logo" src="img/svg/logo.svg" alt="Логотип Фаза"></a>
                 <p class="footer-info-text">© Фаза, 2026. Выполнил: Хайруллин Карим Робертович, 325ВЕБ.</p>
                 <p class="footer-info-text">г. Казань, ул. Баумана, д. 15</p>
             </div>
             <div class="footer-col-nav">
                 <h3 class="footer-title">Навигация</h3>
-                <a href="#" class="footer-link">О школе</a>
-                <a href="#" class="footer-link">Направления</a>
-                <a href="#" class="footer-link">Преподаватели</a>
-                <a href="#" class="footer-link">Форматы обучения</a>
+                <a href="#about" class="footer-link">О школе</a>
+                <a href="#directions" class="footer-link">Направления</a>
+                <a href="#teachers" class="footer-link">Преподаватели</a>
+                <a href="#formats" class="footer-link">Форматы обучения</a>
             </div>
             <div class="footer-col-contacts">
                 <h3 class="footer-title">Контакты</h3>
@@ -287,7 +393,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
